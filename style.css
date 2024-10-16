@@ -1,0 +1,170 @@
+/* Style for the signup images and vertical line */
+.image-line-container {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center;
+    margin-bottom: 20px; /* Add space below the images */
+    transform: translateY(-80px); /* Move images upward by 20px */
+
+    
+}
+
+.left-image {
+    width: 200px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.right-image {
+    width: 200px; /* Adjust the width of the images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.vertical-line {
+    width: 2px; /* Line width */
+    height: 150px; /* Line height matching image size */
+    background-color: black; /* Line color */
+    margin: 0 15px; /* Space between the images and line */
+    margin-right: -20px; /* This negative margin ensures the line moves closer to the right image */
+}
+
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Cascadia Code, sans-serif;
+    background-image: url('images/bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f4f4f4;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* Heading styling */
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Input styling */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    transition: transform .2s;
+}
+
+button:hover {
+    background-color: #0b501b;
+    transform: scale(1.05);
+}
+
+/* Member button styling */
+.member-btn a {
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.member-btn a:hover {
+    color: #000000;
+    cursor: help;
+}
+
+.member-btn {
+    background-color: transparent;
+    border: none;
+    color: #ff0000;
+    cursor: pointer;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
+.member-btn:hover {
+    cursor: pointer;
+    color: #15406d;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+/* Forgot password styling */
+.forgot-password-container {
+    text-align: right;
+    margin-bottom: 7px;
+}
+
+.forgot-password {
+    color: #000000;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.forgot-password:hover {
+    color: #000000;
+}
+
+/* Feedback message styles */
+#feedback {
+    margin-top: 10px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    display: none; /* Hidden by default */
+}
+
+/* Success message styling */
+.success {
+    color: green;
+}
+
+/* Error message styling */
+.error {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+    animation: shake 0.1s; /* Shake animation */
+}
+
+/* Shake animation keyframes */
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}

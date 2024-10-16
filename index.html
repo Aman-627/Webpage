@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="image-line-container">
+        <img src="images/VITBLogo.png" alt="Image 1" class="left-image">
+        <div class="vertical-line"></div>
+        <img src="images/ciscovitblogo.png" alt="Image 2" class="right-image">
+    </div>
+
+    <div class="container">
+        <h2>Sign Up</h2>
+        <form id="signupForm">
+            <input type="text" id="email" placeholder="Email or Mobile Number" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <input type="password" id="confpw" placeholder="Confirm Password" required>
+            <button type="submit">Sign Up</button>
+
+            <div id="loginErrorMsg" class="error" style="display: none;"></div>
+            <div id="errorMsg" class="error" style="display: none;"></div>
+
+        </form>
+        <button class="member-btn" id="toLogin">
+            <a href="login.html">Already a member?</a>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

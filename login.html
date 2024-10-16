@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="image-line-container">
+        <img src="images/VITBLogo.png" alt="VITB Logo" class="left-image">
+        <div class="vertical-line"></div>
+        <img src="images/ciscovitblogo.png" alt="CISCOVITB Logo" class="right-image">
+    </div>
+
+    <div class="container">
+        <h2>Login</h2>
+        <form id="loginForm" aria-labelledby="login-heading">
+            <div class="input-container">
+                <!-- Email field -->
+                <input type="text" id="loginEmail" placeholder="Email or Mobile Number" required>
+            </div>
+            <div class="input-container">
+                <!-- Password field -->
+                <input type="password" id="loginPassword" placeholder="Password" required>
+            </div>
+            <div class="forgot-password-container">
+                <span class="forgot-password">Forgot Password?</span>
+            </div>
+            <button type="submit">Login</button>
+            <!-- Error message container -->
+
+            <div id="loginErrorMsg" class="error" style="display: none;"></div>
+            <div id="errorMsg" class="error" style="display: none;"></div>
+
+        </form>
+        <button class="member-btn" id="toSignUp">
+            <a href="index.html">Don't have an account? <br>Create one and get Started!</a>
+        </button>
+    </div>
+    <script src="scriptlogin.js"></script>
+</body>
+
+</html>
