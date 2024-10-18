@@ -1,8 +1,11 @@
 # Webpage
 
 **Club Demo Sign-Up/Login Page :** 
+
 This project is a simple and clean sign-up and login page demo designed for a club. 
+
 It includes basic validation for email, mobile number, and password inputs, along with the ability to switch between sign-up and login pages. 
+
 The goal is to provide a smooth user experience with minimalistic design and basic client-side validation.
 
 **Features**
@@ -12,9 +15,13 @@ The goal is to provide a smooth user experience with minimalistic design and bas
 
 
 Input fields for email or mobile number, password, and confirm password.
+
 Client-side validation for:
+
 Valid email or 10-digit mobile number.
+
 Password confirmation match.
+
 Immediate redirection to the login page upon successful registration.
 
 **Login Page:**
@@ -22,16 +29,26 @@ Immediate redirection to the login page upon successful registration.
 
 
 Input fields for email or mobile number and password.
+
 Client-side validation for:
+
 Valid email or 10-digit mobile number.
+
 Error messages for invalid inputs.
+
 "Forgot Password?" option for future integration.
+
+
 
 **Design and UI:**
 
+
 Simple, clean UI with basic hover animations and button transitions.
+
 Responsive design using HTML5 and CSS3.
+
 Logo alignment with vertical divider for a professional look.
+
 
 **Tech Stack**
 
@@ -47,19 +64,28 @@ Logo alignment with vertical divider for a professional look.
 
 **Usage :**
 
+
+
 **Sign-Up:**
 
+
 Open the signup.html page.
+
 Enter a valid email or mobile number.
+
 Enter a password and confirm the password by typing it again.
+
 If all validations pass, the page will redirect you to the login page.
+
+
 
 **Login:**
 
 
-
 Open the login.html page.
+
 Enter a valid email or mobile number and a password.
+
 If all validations pass, the login will be considered successful, and a confirmation will appear.
 
 
